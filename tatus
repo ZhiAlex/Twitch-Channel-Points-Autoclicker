@@ -1,0 +1,174 @@
+[33mcommit c09ef5c66d0b5dc0861d9496717dd42e09f351ac[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Alexander Zhibrailov <zhialex.ru@gmail.com>
+Date:   Sat Feb 20 18:41:54 2021 +0300
+
+    added gitignore
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex a3f7d20..62c8935 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1 +1 @@[m
+[31m-../.idea/[m
+\ No newline at end of file[m
+[32m+[m[32m.idea/[m
+\ No newline at end of file[m
+
+[33mcommit efa7ccbe8fa6d4df4558ad0305fc1b9f737a799f[m
+Author: Alexander Zhibrailov <zhialex.ru@gmail.com>
+Date:   Sat Feb 20 18:41:15 2021 +0300
+
+    added gitignore
+
+[1mdiff --git a/script/.gitignore b/.gitignore[m
+[1msimilarity index 100%[m
+[1mrename from script/.gitignore[m
+[1mrename to .gitignore[m
+
+[33mcommit 3465e4ab6d0aa335df6d861547c0472f50d3ea26[m
+Author: Alexander Zhibrailov <zhialex.ru@gmail.com>
+Date:   Sat Feb 20 18:40:08 2021 +0300
+
+    Added script folder for convenience
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex 62c8935..0000000[m
+[1m--- a/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-.idea/[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/.gitignore b/.idea/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b58b603[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.gitignore[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m# Default ignored files[m
+[32m+[m[32m/shelf/[m
+[32m+[m[32m/workspace.xml[m
+[32m+[m[32m# Editor-based HTTP Client requests[m
+[32m+[m[32m/httpRequests/[m
+[1mdiff --git a/.idea/.name b/.idea/.name[m
+[1mnew file mode 100644[m
+[1mindex 0000000..168c169[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.name[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mextension-for-Twitch[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/extension-for-Twitch.iml b/.idea/extension-for-Twitch.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0c8867d[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/extension-for-Twitch.iml[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="WEB_MODULE" version="4">[m
+[32m+[m[32m  <component name="NewModuleRootManager">[m
+[32m+[m[32m    <content url="file://$MODULE_DIR$">[m
+[32m+[m[32m      <excludeFolder url="file://$MODULE_DIR$/temp" />[m
+[32m+[m[32m      <excludeFolder url="file://$MODULE_DIR$/.tmp" />[m
+[32m+[m[32m      <excludeFolder url="file://$MODULE_DIR$/tmp" />[m
+[32m+[m[32m    </content>[m
+[32m+[m[32m    <orderEntry type="inheritedJdk" />[m
+[32m+[m[32m    <orderEntry type="sourceFolder" forTests="false" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4c16e1e[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectModuleManager">[m
+[32m+[m[32m    <modules>[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/.idea/extension-for-Twitch.iml" filepath="$PROJECT_DIR$/.idea/extension-for-Twitch.iml" />[m
+[32m+[m[32m    </modules>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..94a25f7[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/vcs.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="VcsDirectoryMappings">[m
+[32m+[m[32m    <mapping directory="$PROJECT_DIR$" vcs="Git" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/script/.gitignore b/script/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a3f7d20[m
+[1m--- /dev/null[m
+[1m+++ b/script/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m../.idea/[m
+\ No newline at end of file[m
+[1mdiff --git a/main.js b/script/main.js[m
+[1msimilarity index 100%[m
+[1mrename from main.js[m
+[1mrename to script/main.js[m
+[1mdiff --git a/manifest.json b/script/manifest.json[m
+[1msimilarity index 100%[m
+[1mrename from manifest.json[m
+[1mrename to script/manifest.json[m
+
+[33mcommit 4d0e539860f34366fe7fa276466c336e13def593[m
+Author: Alexander Zhibrailov <zhialex.ru@gmail.com>
+Date:   Sat Feb 20 18:35:50 2021 +0300
+
+    Для маслёнка
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..62c8935[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m.idea/[m
+\ No newline at end of file[m
+[1mdiff --git a/main.js b/main.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e0b565a[m
+[1m--- /dev/null[m
+[1m+++ b/main.js[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32msetTimeout(() => {[m
+[32m+[m[32m    setInterval(() => {[m
+[32m+[m[32m        let button = document.getElementsByClassName('tw-button tw-button--success');[m
+[32m+[m[32m        let buttonEl = button[0];[m
+[32m+[m[32m        if (buttonEl != undefined){[m
+[32m+[m[32m            buttonEl.click();[m
+[32m+[m[32m        }[m
+[32m+[m[32m    },2000);[m
+[32m+[m[32m},5000);[m
+\ No newline at end of file[m
+[1mdiff --git a/manifest.json b/manifest.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..355cfbe[m
+[1m--- /dev/null[m
+[1m+++ b/manifest.json[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "manifest_version": 2,[m
+[32m+[m[32m  "name": "resshirenie_dla_maslenka",[m
+[32m+[m[32m  "version": "1.0.0",[m
+[32m+[m
+[32m+[m[32m  "content_scripts": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "matches": [[m
+[32m+[m[32m        "https://www.twitch.tv/*"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "js": ["main.js"][m
+[32m+[m[32m    }[m
+[32m+[m[32m  ][m
+[32m+[m[32m}[m
